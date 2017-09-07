@@ -15,7 +15,7 @@ import sqlite3 as sql
 
 def connect():
 	global db, cursor
-	db = sql.connect('/Users/machine/Desktop/book_app/books.db')
+	db = sql.connect('INSERT FILE PATH HERE')
 	cursor = db.cursor()
 
 def show_books():
