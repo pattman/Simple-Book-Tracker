@@ -9,7 +9,7 @@ import sqlite3 as sql
 
 
 ########################################################
-# 					DATA VIEWING 						#
+# 		     DATA VIEWING 			#
 ########################################################
 
 
@@ -97,7 +97,7 @@ def close():
 		raise
 
 ########################################################
-# 					DATA MANIPULATION 				   #
+# 		  DATA MANIPULATION 			#
 ########################################################
 # A reminder of the column order 
 def reminder():
